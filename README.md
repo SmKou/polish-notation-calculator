@@ -1,8 +1,29 @@
-# React + Vite
+# Polish Notation Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+By: Stella Marie
 
-Currently, two official plugins are available:
+Demo project using React and Redux.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View on [Github Pages]()
+
+## Technologies Used
+
+- Scaffolded with Vite
+- React 18 (Webpack & Babel)
+- Redux Toolkit
+- Jest & Jest-Each
+- Tailwind CSS
+- Styled Components
+
+## Description
+
+**Features:**
+- Modes: 
+  - standard notation (SN)
+  - normal polish notation (NPN)
+  - reverse polish notation (RPN)
+- Operations: PEMDAS
+- Memory
+  - previous calculation (single | combination)
+  - previous value (as-is | set var)
+- Render: Operations tree
